@@ -1,0 +1,41 @@
+.container {
+    background-color: #c6e0f5;
+    width: 450px;
+    height: 450px;
+    border-left: 10px solid black;
+}
+.background-text {
+    padding-top: 1em;
+    font-size: large;
+}
+.box {
+    position: absolute; /* using "absolute" for taking this item over the text */
+    top: 4em;
+    left: 1em;
+}
+.x {
+    background-color: #a3c9e7;
+    border: 1px solid black;
+    width: 216px;
+    height: 20px;  
+}
+.x-1 {
+    background-color: #a3c9e7;
+    border: 1px solid black;
+    width: 30px;
+    text-align: center;
+}
+.item-1, .item-4, .item-3 {
+    background-color: #a3c9e7;  
+}
+.item-2 {
+    background-color: #73b8ee;  
+}
+.item-1, .item-4, .item-3, .item-2 {
+    width: 200px;
+    height: 30px;
+    border: 1px solid black;
+    padding-left: 1em;
+    display: flex;
+    align-items: center;
+}
